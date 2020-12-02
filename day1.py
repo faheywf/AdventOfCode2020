@@ -1,6 +1,6 @@
 
 def problem1():
-    with open("day1_part1.txt", "r") as f:
+    with open("day1.txt", "r") as f:
         entries = [int(line.strip()) for line in f.readlines()]
 
     for i in range(len(entries)):
@@ -12,7 +12,7 @@ def problem1():
                 return
 
 def problem2():
-    with open("day1_part1.txt", "r") as f:
+    with open("day1", "r") as f:
         entries = [int(line.strip()) for line in f.readlines()]
 
     for i in range(len(entries)):
